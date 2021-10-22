@@ -1,0 +1,19 @@
+package Com.Programs;
+
+import java.util.Scanner;
+
+public class NumberReverse {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Scanner sc =new Scanner(System.in);
+System.out.println("Enter the Num = ");
+int num=sc.nextInt();
+StringBuffer b=new StringBuffer();
+b.append(num);
+b.reverse();
+System.out.println(b);
+
+	}
+
+}
